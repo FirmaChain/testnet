@@ -7,5 +7,5 @@ FirmaChain Launch
 ## Seed Node
 ### imperium-0000
 ```
-59dde969972a3126f824bcadfe44023840f9bcca@52.78.147.71:26656 // Testnet Node #0
+e46ee23d7399cf5cc7c91a3a4a3248e9557a78b5@52.78.147.71:26656 // Testnet Node #0
 ```
