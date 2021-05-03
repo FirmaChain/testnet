@@ -2,10 +2,11 @@
 FirmaChain Launch
 
 ## Network
-  - imperium-0000  *(Latest)*
+  - imperium-0001  *(Latest)*
+  - imperium-0000
 
 ## Seed Node
-### imperium-0000
+### imperium-0001
 ```
-e46ee23d7399cf5cc7c91a3a4a3248e9557a78b5@52.78.147.71:26656 // Testnet Node #0
+18509992c765f6506efdc8c5523a2fb63ac7b5a7@@52.78.147.71:26656 // Testnet Node #0
 ```

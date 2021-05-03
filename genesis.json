@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2020-10-21T02:06:59.708838402Z",
-  "chain_id": "imperium-0000",
+  "genesis_time": "2021-05-03T12:00:00.000000000Z",
+  "chain_id": "imperium-0001",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -8,7 +8,8 @@
       "time_iota_ms": "1000"
     },
     "evidence": {
-      "max_age": "100000"
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000"
     },
     "validator": {
       "pub_key_types": [
@@ -18,52 +19,17 @@
   },
   "app_hash": "",
   "app_state": {
-    "auth": {
-      "params": {
-        "max_memo_characters": "256",
-        "tx_sig_limit": "7",
-        "tx_size_cost_per_byte": "10",
-        "sig_verify_cost_ed25519": "590",
-        "sig_verify_cost_secp256k1": "1000"
-      }
-    },
-    "bank": {
-      "send_enabled": true
-    },
-    "mint": {
-      "minter": {
-        "inflation": "0.130000000000000000",
-        "annual_provisions": "0.000000000000000000"
-      },
-      "params": {
-        "mint_denom": "ufirma",
-        "inflation_rate_change": "0.0000001",
-        "inflation_max": "1.0",
-        "inflation_min": "0.0",
-        "goal_bonded": "0.02",
-        "blocks_per_year": "6311520"
-      }
-    },
-    "slashing": {
-      "params": {
-        "max_evidence_age": "120000000000",
-        "signed_blocks_window": "100",
-        "min_signed_per_window": "0.500000000000000000",
-        "downtime_jail_duration": "600000000000",
-        "slash_fraction_double_sign": "0.050000000000000000",
-        "slash_fraction_downtime": "0.010000000000000000"
-      },
-      "signing_infos": {},
-      "missed_blocks": {}
-    },
+    "upgrade": {},
     "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
       "fee_pool": {
         "community_pool": []
       },
-      "community_tax": "0.020000000000000000",
-      "base_proposer_reward": "0.010000000000000000",
-      "bonus_proposer_reward": "0.040000000000000000",
-      "withdraw_addr_enabled": true,
       "delegator_withdraw_infos": [],
       "previous_proposer": "",
       "outstanding_rewards": [],
@@ -73,14 +39,241 @@
       "delegator_starting_infos": [],
       "validator_slash_events": []
     },
-    "contract": {
-      "contract_records": []
+    "mint": {
+      "minter": {
+        "annual_provisions": "83556702258366.949383721734937600",
+        "inflation": "0.130000048672659200"
+      },
+      "params": {
+        "mint_denom": "ufirma",
+        "goal_bonded": "0.020000000000000000",
+        "inflation_max": "1.000000000000000000",
+        "inflation_min": "0.000000000000000000",
+        "inflation_rate_change": "0.000000100000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "genutil": {
+      "gentxs": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "ufirma",
+        "amount": "1000"
+      }
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "firma1s32kfj68jjgctfycc7y4pa9scul2ujsd8gq2ym",
+            "coins": [
+              {
+                "denom": "ufirma",
+                "amount": "598999789694000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "firma14yh7wyqzzm6e2sk4dpav8sp4xdjatdkp3vgyl7",
+            "coins": [
+              {
+                "denom": "ufirma",
+                "amount": "3199517"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "firma1zndjqe0x0tmmx92qkc2uc9xzanlf8gwtp9st9e",
+            "coins": [
+              {
+                "denom": "ufirma",
+                "amount": "7000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "firma1h4hw9nef9rtcq53hl90rumr4ejqq3dcx8r08c8",
+            "coins": [
+              {
+                "denom": "ufirma",
+                "amount": "1000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "firma1vyd8s5xx57kkwqhc2wu35vzt25ecna9j96jhav",
+            "coins": [
+              {
+                "denom": "ufirma",
+                "amount": "1998443"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "firma1lz3r8hnj6lggtcj56wyeqcjt2wkzlttguwugvp",
+            "coins": [
+              {
+                "denom": "ufirma",
+                "amount": "1000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "firma1z8nms34hdlsp8kyuwc9kvcp8tj8zet8y5tpk6w",
+            "coins": [
+              {
+                "denom": "ufirma",
+                "amount": "1000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "firma1fhu003vpctm4n0dpxrnfevzz8vwucflz7jj64a",
+            "coins": [
+              {
+                "denom": "ufirma",
+                "amount": "17000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "firma1tckc833805ses8uaffzra49g8cv7dxcaug2cwz",
+            "coins": [
+              {
+                "denom": "ufirma",
+                "amount": "8000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "firma1kdmu5zft2sg76zs5hq5dktvr4teqz867t0gskp",
+            "coins": [
+              {
+                "denom": "ufirma",
+                "amount": "75000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "firma1v4zc9v7e0hp4860rly93qjhqddgdaq50hqz5s5",
+            "coins": [
+              {
+                "denom": "ufirma",
+                "amount": "93000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "firma13n5pmgrfn92fygllx3d9vw0dw8p4dtx6c82ud2",
+            "coins": [
+              {
+                "denom": "ufirma",
+                "amount": "275998"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "firma1vkyrw73qhuhz7vs6q9stnhhktccxt6ml7l2zju",
+            "coins": [
+              {
+                "denom": "ufirma",
+                "amount": "1710000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        }
+      ]
     },
     "staking": {
       "params": {
         "unbonding_time": "1814400000000000",
         "max_validators": 11,
         "max_entries": 7,
+        "historical_entries": 0,
         "bond_denom": "ufirma"
       },
       "last_total_power": "0",
@@ -92,79 +285,86 @@
       "exported": false
     },
     "params": null,
+    "nft": {
+      "nft_records": []
+    },
     "supply": {
       "supply": []
     },
-    "accounts": [
-      {
-        "address": "firma1s32kfj68jjgctfycc7y4pa9scul2ujsd8gq2ym",
-        "coins": [
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
           {
             "denom": "ufirma",
-            "amount": "600000000000000"
+            "amount": "10000000"
           }
         ],
-        "sequence_number": "0",
-        "account_number": "0",
-        "original_vesting": [],
-        "delegated_free": [],
-        "delegated_vesting": [],
-        "start_time": "0",
-        "end_time": "0",
-        "module_name": "",
-        "module_permissions": [
-          ""
-        ]
+        "max_deposit_period": "172800000000000"
+      },
+      "voting_params": {
+        "voting_period": "172800000000000"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
       }
-    ],
-    "genutil": {
-      "gentxs": [
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "contract": {
+      "contract_records": [
         {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "mainnode",
-                    "identity": "",
-                    "website": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "firma1s32kfj68jjgctfycc7y4pa9scul2ujsd8gq2ym",
-                  "validator_address": "firmavaloper1s32kfj68jjgctfycc7y4pa9scul2ujsdemt3y4",
-                  "pubkey": "firmavalconspub1zcjduepqfquc4sxx90kwaax92k8e8uj26f5wptf4g452ujkpatwjgpqh7r8smt2k4z",
-                  "value": {
-                    "denom": "ufirma",
-                    "amount": "1000000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "ArOoRJjxJsGt0hBquyeFU7WrhXWGyqw5fEv9GVX+hwCk"
-                },
-                "signature": "BGHaQ2V/Qdp1QVkZeNrnM7NbmuEL33qjpM/rynoSPdZQDps1s44eh6c4qGtdf7nD+ZzhNAfWkR8SKxwKnzRcpw=="
-              }
-            ],
-            "memo": "e46ee23d7399cf5cc7c91a3a4a3248e9557a78b5@52.78.147.71:26656"
-          }
+          "hash": "637c43da9053b3f16919654c21e91a78d0641b9ff479b9504e38c6097cb5a171",
+          "owners": [
+            "firma1vyd8s5xx57kkwqhc2wu35vzt25ecna9j96jhav"
+          ],
+          "path": "https://ipfs.infura.io:5001/api/v0/cat?arg=QmfWVHyTiVXscS4kHENQRXKD5ug1qd2UQJAE6aCX5ch2Eq"
+        },
+        {
+          "hash": "960fe2b095bde1d5a40c9a31930936d4cf195454e17e3b890b24ca19e18d7c87",
+          "owners": [
+            "firma1vyd8s5xx57kkwqhc2wu35vzt25ecna9j96jhav"
+          ],
+          "path": "https://ipfs.infura.io:5001/api/v0/cat?arg=QmfURv7vtTaJg6QLZoZb9VFaZiABP4spmy5vR7DuDjfe6g"
+        },
+        {
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "owners": [
+            "firma1vyd8s5xx57kkwqhc2wu35vzt25ecna9j96jhav"
+          ],
+          "path": "https://ipfs.infura.io:5001/api/v0/cat?arg=undefined"
+        },
+        {
+          "hash": "f0e4c2f76c58916ec258f246851bea091d14d4247a2fc3e18694461b1816e13b",
+          "owners": [
+            "firma13n5pmgrfn92fygllx3d9vw0dw8p4dtx6c82ud2"
+          ],
+          "path": "https://ipfs.infura.io:5001/api/v0/cat?arg=QmTF7NerdGZhnDPJj3Yj51gqH18o8kLtgkgtVjMLk1V9tx"
         }
       ]
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "evidence": {
+      "params": {
+        "max_evidence_age": "120000000000"
+      },
+      "evidence": []
     }
   }
 }
