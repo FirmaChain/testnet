@@ -1,0 +1,46 @@
+{
+    "type": "cosmos-sdk/StdTx",
+    "value": {
+        "msg": [
+            {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                    "description": {
+                        "moniker": "mainnode",
+                        "identity": "",
+                        "website": "",
+                        "security_contact": "",
+                        "details": ""
+                    },
+                    "commission": {
+                        "rate": "0.100000000000000000",
+                        "max_rate": "0.200000000000000000",
+                        "max_change_rate": "0.010000000000000000"
+                    },
+                    "min_self_delegation": "1",
+                    "delegator_address": "firma1s32kfj68jjgctfycc7y4pa9scul2ujsd8gq2ym",
+                    "validator_address": "firmavaloper1s32kfj68jjgctfycc7y4pa9scul2ujsdemt3y4",
+                    "pubkey": "firmavalconspub1zcjduepq3chdsyl57de8jm8wxx8wrjadj7yrh4ve88kr50kdxg6gcrr4xu2s5dd6nf",
+                    "value": {
+                        "denom": "ufirma",
+                        "amount": "1000000000000"
+                    }
+                }
+            }
+        ],
+        "fee": {
+            "amount": [],
+            "gas": "200000"
+        },
+        "signatures": [
+            {
+                "pub_key": {
+                    "type": "tendermint/PubKeySecp256k1",
+                    "value": "ArOoRJjxJsGt0hBquyeFU7WrhXWGyqw5fEv9GVX+hwCk"
+                },
+                "signature": "VjoWO7UAzyq3SS8meUO114Qn485cOiH3BFcI4QlhwUNJy5Tj3FXI4iXoVAGda8i1+O6S94AXZrdchlTupSQB7Q=="
+            }
+        ],
+        "memo": "18509992c765f6506efdc8c5523a2fb63ac7b5a7@172.31.25.149:26656"
+    }
+}
