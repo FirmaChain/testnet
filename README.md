@@ -1,5 +1,5 @@
-# FirmaChain-Launch
-FirmaChain Launch
+# FirmaChain-Launch-Testnet
+FirmaChain Testnet Launch
 
 ## Network
   - imperium-0001  *(Latest)*
