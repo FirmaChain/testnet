@@ -1,12 +1,35 @@
-# FirmaChain-Launch-Testnet
-FirmaChain Testnet Launch
+# FirmaChain-DevNet-Imperium
 
-## Network
-  - imperium-0001  *(Latest)*
-  - imperium-0000
+
+<center>
+
+![132190694-37c673a7-26fa-4bc9-a71c-2a4a4690d458111111](https://user-images.githubusercontent.com/5277080/132265516-b6373d15-133c-41f3-a093-a93c34155c13.png) 
+
+
+
+</center>
+
+The FirmaChain Imperium DevNet is a space where chain developers prepare for a variety of scenarios and specifications, providing the fastest way to check for updates to the FirmaChain Core.
+
+The Imperium DevNet consists of 3 validators and 1 light node and is used to test the developing chain module and the basic Cosmos & Tendermint features like validator test and staking, delegation, and voting.
+
+This repository also manages the config file and genesis.json required to set up the chain.
+
+The external validator is not allowed to participate in DevNet, but if you are curious, you can test under the same environment through Genesis.json that we provide.
+
+<br>
+
+
+## Latest Networks
+  - imperium-2  *(Latest)*
+  - imperium-0001 (retired)
+  - imperium-0000 (retired)
+
+<br>
 
 ## Seed Node
-### imperium-0001
+### imperium-2
 ```
-18509992c765f6506efdc8c5523a2fb63ac7b5a7@@52.78.147.71:26656 // Testnet Node #0
+65db86dfd58c1e3732cfd81bf2129bba222b2cc7@175.114.59.48:26656 // firma-node-1
 ```
+
