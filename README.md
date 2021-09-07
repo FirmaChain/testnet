@@ -19,6 +19,15 @@ The external validator is not allowed to participate in DevNet, but if you are c
 
 <br>
 
+The following services are used for the Imperium Testnet:
+ - FirmaChain Block Explorer : https://explorer-devnet.firmachain.org/
+ - FirmaChain Faucet : https://faucet-devnet.firmachain.org/
+ - Cosmos REST: https://imperium-lcd.firmachain.org:1317/
+ - Cosmos gRPC: https://imperium-grpc.firmachain.org:9090
+ - Tendermint RPC: https://imperium-lcd.firmachain.org:26657/
+
+<br>
+
 
 ## Latest Networks
   - imperium-2  *(Latest)*
