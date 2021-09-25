@@ -29,6 +29,18 @@ The following services are used for the Imperium Testnet:
 <br>
 
 
+## Installation
+ * Get latest release 
+```sh
+curl https://build.firmachain.org | bash
+```
+
+* Check release version
+```sh
+./firmachaind version
+```
+
+
 ## Latest Networks
   - imperium-2  *(Latest)*
   - imperium-0001 (retired)
