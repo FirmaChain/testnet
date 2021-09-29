@@ -25,6 +25,7 @@ The following services are used for the Imperium Testnet:
  - Cosmos REST: https://imperium-lcd.firmachain.org:1317/
  - Cosmos gRPC: https://imperium-grpc.firmachain.org:9090
  - Tendermint RPC: https://imperium-lcd.firmachain.org:26657/
+ - Firma-JS : https://www.npmjs.com/package/@firmachain/firma-js
 
 <br>
 
