@@ -19,7 +19,7 @@ The external validator is not allowed to participate in DevNet, but if you are c
 
 <br>
 
-The following services are used for the Imperium Testnet:
+The following services are used for the Imperium Devnet:
  - FirmaChain Block Explorer : https://explorer-devnet.firmachain.org/
  - FirmaChain Faucet : https://faucet-devnet.firmachain.org/
  - Cosmos REST: https://imperium-lcd.firmachain.org:1317/
@@ -30,10 +30,16 @@ The following services are used for the Imperium Testnet:
 <br>
 
 
+## Devnet Status
+
+⚠️ Latest Devnet: [imperium-2](./imperium-2) ⚠️
+
+<br>
+
 ## Installation
- * Get latest release 
+ * Get latest release (v0.2.8)
 ```sh
-curl https://build.firmachain.org | bash
+curl https://build.firmachain.org/@v0.2.8 | bash
 ```
 
 * Check release version
@@ -44,8 +50,8 @@ curl https://build.firmachain.org | bash
 
 ## Latest Networks
   - imperium-2  *(Latest)*
-  - imperium-0001 (retired)
-  - imperium-0000 (retired)
+  - imperium-1 (retired)
+
 
 <br>
 
@@ -54,4 +60,18 @@ curl https://build.firmachain.org | bash
 ```
 65db86dfd58c1e3732cfd81bf2129bba222b2cc7@175.114.59.48:26656 // firma-node-1
 ```
+
+---
+<br>
+
+
+## History
+
+### *October 14, 2021 18:00:00 PM (GMT+9)*
+- imperium-2 upgraded to v0.2.8
+
+### *September 06, 2021 10:19:32 PM (GMT+9)*
+- imperium-2 upgraded to v0.2.3
+- imperium-1 retired
+
 
