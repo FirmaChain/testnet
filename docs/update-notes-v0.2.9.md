@@ -52,17 +52,20 @@ Now you're ready to install the new binary.
 > sudo mv ./firmachaind /usr/local/bin/firmachaind
 
 > firmachaind version
-0.2.9-96864823
+0.2.9-c59c6abf
 
 > firmachaind version --long
 name: Firmachain
 server_name: firmachaind
-version: 0.2.9-96864823
-commit: 96864823fc117b14247615af25ccd477494abee4
+version: 0.2.9-c59c6abf
+commit: c59c6abf7535b0e950a8c6b1519a4da29012bd82
 build_tags: ""
 go: go version go1.16.8 linux/amd64
 ...
 cosmos_sdk_version: v0.44.2
+
+> sha1sum firmachaind
+da919dd74e8ec072e54d3320f9b90877b5dde96d  firmachaind
 ```
 
 </br>
