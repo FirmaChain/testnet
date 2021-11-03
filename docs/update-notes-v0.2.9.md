@@ -5,7 +5,7 @@ This document was created to transparently share the testnet upgrade process.
 ## Overview
 
 - Governance Proposal: https://explorer-devnet.firmachain.org/proposals/13
-- Target Block Height : `704,000`.
+- Target Block Height : `704,000`
 - Upgrade Type: Soft-fork by governance software upgrade proposal
 
 </br>
