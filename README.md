@@ -37,9 +37,9 @@ The following services are used for the Imperium Devnet:
 <br>
 
 ## Installation
- * Get latest release (v0.2.9)
+ * Get latest release (v0.3.0)
 ```sh
-curl https://build.firmachain.org/@v0.2.9 | bash
+curl https://build.firmachain.org/@v0.3.0 | bash
 ```
 
 * Check release version
@@ -66,6 +66,9 @@ curl https://build.firmachain.org/@v0.2.9 | bash
 
 
 ## History
+
+### *November 04, 2021 11:00:00 AM (GMT+9)*
+- imperium-2 upgraded to v0.3.0
 
 ### *October 21, 2021 11:45:00 AM (GMT+9)*
 - imperium-2 upgraded to v0.2.9
