@@ -67,6 +67,9 @@ curl https://build.firmachain.org/@v0.3.0 | bash
 
 ## History
 
+### *November 11, 2021 21:30:00 AM (GMT+9)*
+- imperium-2 upgraded to v0.3.1
+
 ### *November 04, 2021 11:00:00 AM (GMT+9)*
 - imperium-2 upgraded to v0.3.0
 
