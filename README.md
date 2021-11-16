@@ -37,9 +37,9 @@ The following services are used for the Imperium Devnet:
 <br>
 
 ## Installation
- * Get latest release (v0.3.0)
+ * Get latest release (v0.3.1)
 ```sh
-curl https://build.firmachain.org/@v0.3.0 | bash
+curl https://build.firmachain.org/@v0.3.1 | bash
 ```
 
 * Check release version
