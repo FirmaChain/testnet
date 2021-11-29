@@ -55,7 +55,7 @@ curl https://build.firmachain.org/@v0.3.1 | bash
 
 <br>
 
-## Seed Node
+## Persistent Peers
 ### imperium-2
 ```
 65db86dfd58c1e3732cfd81bf2129bba222b2cc7@175.114.59.48:26656 // firma-node-1
