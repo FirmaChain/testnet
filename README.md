@@ -77,22 +77,22 @@ If you want to be a validator or full-node, You have to upgrade the chain based 
 
 ## History
 
-### *December 07, 2021 21:30:00 AM (GMT+9)*
+### *December 07, 2021 21:30:00 (GMT+9)*
 - imperium-2 upgraded to v0.3.2
 
-### *November 11, 2021 21:30:00 AM (GMT+9)*
+### *November 11, 2021 21:30:00 (GMT+9)*
 - imperium-2 upgraded to v0.3.1
 
-### *November 04, 2021 11:00:00 AM (GMT+9)*
+### *November 04, 2021 11:00:00 (GMT+9)*
 - imperium-2 upgraded to v0.3.0
 
-### *October 21, 2021 11:45:00 AM (GMT+9)*
+### *October 21, 2021 11:45:00 (GMT+9)*
 - imperium-2 upgraded to v0.2.9
 
-### *October 14, 2021 18:00:00 PM (GMT+9)*
+### *October 14, 2021 18:00:00 (GMT+9)*
 - imperium-2 upgraded to v0.2.8
 
-### *September 06, 2021 10:19:32 PM (GMT+9)*
+### *September 06, 2021 10:19:32 (GMT+9)*
 - imperium-2 upgraded to v0.2.3
 - imperium-1 retired
 
