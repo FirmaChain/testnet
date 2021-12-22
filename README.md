@@ -67,11 +67,12 @@ If you want to be a validator or full-node, You have to upgrade the chain based 
 
 |Block | Chain Version|Link|
 |--------|-----------|-----------|
-|0 - 597,000|[v0.2.3]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.2.3)|
-|597,001 - 704,000|[v0.2.8]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.2.8)|
-|704,001 - 923,000|[v0.2.9]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.2.9)|
-|923,000 - 1,039,200|[v0.3.0]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.3.0)|
-|1,039,201 - 1,402,000|[v0.3.1]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.3.1)|
+|0 - 596,999|[v0.2.3]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.2.3)|
+|597,000 - 703,999|[v0.2.8]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.2.8)|
+|704,000 - 922,999|[v0.2.9]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.2.9)|
+|923,000 - 1,039,199|[v0.3.0]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.3.0)|
+|1,039,200 - 1,401,999|[v0.3.1]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.3.1)|
+|1,402,000 - NOW|[v0.3.2]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.3.2)|
 
 ---
 
