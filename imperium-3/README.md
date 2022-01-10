@@ -1,4 +1,4 @@
-# FirmaChain-Testnet-Imperium
+# FirmaChain-Testnet-Imperium-3
 
 
 <center>
@@ -26,8 +26,6 @@ The following services are used for the testnet:
  - Cosmos REST: https://lcd-testnet.firmachain.dev:1317
  - Tendermint RPC: https://lcd-testnet.firmachain.dev:26657
  - Firma-JS : https://www.npmjs.com/package/@firmachain/firma-js
-
-<br>
 
 <br>
 
@@ -60,7 +58,6 @@ If you want to be a validator or full-node, You have to upgrade the chain based 
 |--------|-----------|-----------|
 |0 - NOW|[v0.3.3]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.3.3)|
 
----
 
 
 
