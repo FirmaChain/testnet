@@ -33,7 +33,7 @@ The following services are used for the testnet:
  * Get latest release (v0.3.3)
  * Please see the official document (https://docs.firmachain.org/)
 ```sh
-curl https://build.firmachain.org/@v0.3.3 | bash
+curl https://build.firmachain.dev/@v0.3.3 | bash
 ```
 
 * Check release version
