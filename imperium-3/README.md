@@ -30,10 +30,10 @@ The following services are used for the testnet:
 <br>
 
 ## Installation
- * Get latest release (v0.3.3)
+ * Get latest release (v0.3.5)
  * Please see the official document (https://docs.firmachain.org/)
 ```sh
-curl https://build.firmachain.dev/@v0.3.3 | bash
+curl https://build.firmachain.dev/@v0.3.5-alpha4 | bash
 ```
 
 * Check release version
@@ -51,13 +51,27 @@ ede8f4b223b10b96ca1b1beda56350f94f400fb0@testnet-seed2.firmachain.dev:26656
 ```
 <br>
 
+## IBC Relayer 
+- Hermes 0.14.1+181b14a
+
+<br>
+
+## IBC Test Node (chain-id : ibctest-1)
+- FirmaChain Block Explorer : https://explorer-ibctest.firmachain.dev/
+- Cosmos REST : https://explorer-ibctest.firmachain.dev:1317
+- Tendermint RPC: https://explorer-ibctest.firmachain.dev:26657 
+- FirmaChain Faucet : https://faucet-ibctest.firmachain.dev/
+- Firma Station : https://station-ibctest.firmachain.dev/
+ 
+ <br>
+
 ## State Sync
 If you want to be a validator or full-node, You have to upgrade the chain based on the state below.
 
 |Block | Chain Version|Link|
 |--------|-----------|-----------|
-|0 - NOW|[v0.3.3]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.3.3)|
-
+|0 - 2,505,599|[v0.3.3]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.3.3)|
+|2,505,600 - NOW|[v0.3.5]|[Link](https://github.com/firmachain/firmachain/releases/tag/v0.3.5-alpha4)|
 
 
 
