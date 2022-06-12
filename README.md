@@ -25,6 +25,10 @@ To get started with the latest testnet, see the follow link.
 
 ## History
 
+### *June 10, 2022 15:00:00 (GMT+9)*
+- imperium-3 upgraded to v0.3.5-alpha4
+- support IBC & CosmWasm
+- bdjuno & explorer upgrade
 
 ### *January 05, 2022 16:04:00 (GMT+9)*
 - imperium-3 upgraded to v0.3.3
