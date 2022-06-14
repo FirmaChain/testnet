@@ -13,18 +13,22 @@ The Imperium DevNet consists of 3 validators and 1 light node and is used to tes
 
 This repository also manages the config file and genesis.json required to set up the chain.
 
+<br>
+
 ## Getting Started
 To get started with the latest testnet, see the follow link.
 - https://docs.firmachain.org/
 
+<br>
 
 ## Testnet Status
 
 ⚠️ Latest : [imperium-3](./imperium-3) ⚠️
 
+<br>
 
 ## History
-
+---
 ### *June 10, 2022 15:00:00 (GMT+9)*
 - imperium-3 upgraded to v0.3.5-alpha4
 - support IBC & CosmWasm

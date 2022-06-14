@@ -58,11 +58,11 @@ ede8f4b223b10b96ca1b1beda56350f94f400fb0@testnet-seed2.firmachain.dev:26656
 
 ## IBC Test Node (chain-id : ibctest-1)
 - FirmaChain Block Explorer : https://explorer-ibctest.firmachain.dev/
-- Cosmos REST : https://explorer-ibctest.firmachain.dev:1317
-- Tendermint RPC: https://explorer-ibctest.firmachain.dev:26657 
+- Cosmos REST : https://lcd-ibctest.firmachain.dev:1317/
+- Tendermint RPC: https://lcd-ibctest.firmachain.dev:26657/
 - FirmaChain Faucet : https://faucet-ibctest.firmachain.dev/
 - Firma Station : https://station-ibctest.firmachain.dev/
- 
+
  <br>
 
 ## State Sync
