@@ -23,12 +23,22 @@ To get started with the latest testnet, see the follow link.
 
 ## Testnet Status
 
-⚠️ Latest : [imperium-3](./imperium-3) ⚠️
+⚠️ Latest : [imperium-4](./imperium-4) ⚠️
 
 <br>
 
 ## History
 ---
+### *October 28, 2022 11:16:57(GMT+9)*
+- imperium-4 upgraded to v0.3.5-beta3
+- support IBC & CosmWasm
+- Cosmos SDK upgraded to v0.45.9
+- CosmWasm upgraded to v0.29.1
+- dragonberry patch
+- bdjuno & explorer
+- hermes upgraded to v1.0.0
+- imperium-3 retired
+
 ### *June 10, 2022 15:00:00 (GMT+9)*
 - imperium-3 upgraded to v0.3.5-alpha4
 - support IBC & CosmWasm
