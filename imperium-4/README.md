@@ -32,14 +32,41 @@ The following services are used for the testnet:
 ## Installation
  * Get latest release (v0.3.5-beta3)
  * Please see the official document (https://docs.firmachain.org/)
+ * From v0.3.5 you need to build `firmachaind` locally
+ * Check out details on [official document page](https://docs.firmachain.org/master/node-and-validators-guide/run-a-full-node/installation-firmachaind)
+
+
 ```sh
-curl https://build.firmachain.dev/@v0.3.5-beta3 | bash
+git clone https://github.com/firmachain/firmachain.git
+
+cd firmachain
+git checkout v0.3.5-patch
+
+make install
+...
 ```
 
-* Check release version
+After building locally, you will find `firmachaind` executable on the following path
+
+```sh
+~/go/bin/firmachaind
+```
+
+Check release version
+
 ```sh
 ./firmachaind version
 ```
+
+
+Init firmachain testnet using `imperium-4`
+```sh
+./firmachaind init <moniker-name> --chain-id imperium-4
+```
+
+Now you will be able to find config files on the `~/.firmachain/config`
+
+Check out our official document for further setup and node operation.
 
 <br>
 
