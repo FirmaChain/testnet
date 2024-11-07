@@ -4,7 +4,7 @@ This document was created to transparently share the testnet upgrade process.
 
 ## Overview
 
-- Governance Proposal: https://explorer-devnet.firmachain.org/proposals/22
+- Governance Proposal:https://explorer-testnet.firmachain.dev/proposals/22
 - Target Block Height : `12,038,000`
 - Upgrade Type: Soft-fork by governance software upgrade proposal
 
@@ -41,8 +41,8 @@ This document was created to transparently share the testnet upgrade process.
 
 We recommend you backup existing block chain data as follows or in whatever way you see fit. 
 ```bash
-> cp -r .firmachain .firmachain_v031
-> tar -cvf firmachain_v031.tar .firmachain
+> cp -r .firmachain .firmachain_v035
+> tar -cvf firmachain_v035.tar .firmachain
 ```
 
 </br>
