@@ -31,7 +31,7 @@ This document was created to transparently share the testnet upgrade process.
 
 ## Installation Process
 
- The `firmachaind` process will automatically be stopped at block height `1,402,000`. But the process will still remain in alive state. So you have to manually kill `firmachaind` process.
+ The `firmachaind` process will automatically be stopped at block height `12,038,000`. But the process will still remain in alive state. So you have to manually kill `firmachaind` process.
 
 ```bash
 > pkill firmachaind
