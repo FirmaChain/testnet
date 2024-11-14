@@ -4,8 +4,8 @@ This document was created to transparently share the testnet upgrade process.
 
 ## Overview
 
-- Governance Proposal:https://explorer-testnet.firmachain.dev/proposals/22
-- Target Block Height : `12,038,000`
+- Governance Proposal:https://explorer-testnet.firmachain.dev/proposals/XX
+- Target Block Height : `12,500` (Imperium)
 - Upgrade Type: Soft-fork by governance software upgrade proposal
 
 </br>
@@ -31,7 +31,7 @@ This document was created to transparently share the testnet upgrade process.
 
 ## Installation Process
 
- The `firmachaind` process will automatically be stopped at block height `12,038,000`. But the process will still remain in alive state. So you have to manually kill `firmachaind` process.
+ The `firmachaind` process will automatically be stopped at block height `12,500`. But the process will still remain in alive state. So you have to manually kill `firmachaind` process.
 
 ```bash
 > pkill firmachaind
