@@ -4,7 +4,7 @@ This document was created to transparently share the testnet upgrade process.
 
 ## Overview
 
-- Governance Proposal:https://explorer-testnet.firmachain.dev/proposals/XX
+- Governance Proposal:https://explorer-testnet.firmachain.dev/proposals/17
 - Target Block Height : `12,500` (Imperium)
 - Upgrade Type: Soft-fork by governance software upgrade proposal
 
@@ -73,7 +73,7 @@ cosmos_sdk_version: v0.45.16
 
 </br>
 
-Once you've completed all of the above without any problems, let's restart the chain.
+Once you've completed all of the above without any problems, please restart the chain.
 
 ```
 > firmachaind start
