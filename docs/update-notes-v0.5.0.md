@@ -21,8 +21,11 @@ This document was created to transparently share the testnet upgrade process.
 - **wasmd (CosmWasm)** : v0.33.0 -> v0.54.0 (WasmVM 2.2.1) **[Major Upgrade]**
 - **CometBFT (Consensus)** : v0.34.33 -> v0.38.17 **[Major Upgrade]**
 
+**Requirements**
+- Go : v1.21 or newer (same as Firmachain v0.4.0)
+
 **Ecosystem Requirements**
-- **firma-js** : v0.3.0 or newer  **[Major Upgrade]**
+- **firma-js** : v0.3.0 or newer **[Major Upgrade]**
 
 **New modules**
 - sdk module : `x/circuit`
