@@ -28,7 +28,15 @@ To get started with the latest testnet, see the follow link.
 <br>
 
 ## History
----
+
+### *November 14, 2024 11:35:19(GMT+9)*
+- imperium-4 upgraded to v0.4.0-alpha1
+- cosmos-sdk(Cosmos SDK) : v0.45.9 -> v0.45.16
+- IBC-go(IBC) : v3.3.0 -> v4.4.0
+- wasmd(CosmWasm) : v0.29.2 -> v0.33.0
+- Tendermint : v0.34.21 -> CometBFT : v0.34.33
+- Go : v1.18 -> v1.21
+
 ### *October 28, 2022 11:16:57(GMT+9)*
 - imperium-4 upgraded to v0.3.5-beta3
 - support IBC & CosmWasm
