@@ -4,8 +4,8 @@ This document was created to transparently share the testnet upgrade process.
 
 ## Overview
 
-- Governance Proposal:https://explorer-testnet.firmachain.dev/proposals/(TBD)
-- Target Block Height : `(TBD)` (Imperium)
+- Governance Proposal:https://explorer-testnet.firmachain.dev/proposals/42
+- Target Block Height : `3,555,000` (Imperium)
 - Upgrade Type: Soft-fork by governance software upgrade proposal
 
 </br>
