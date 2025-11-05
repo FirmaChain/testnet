@@ -14,7 +14,7 @@
 **Upgrade module**
 - **cosmos-sdk (Cosmos SDK)** : v0.50.12 -> v0.50.14
 - **IBC-go (IBC)** : v8.6.1 -> v8.7.0
-- **wasmd (CosmWasm)** : v0.54.0 -> v0.54.2
+- **wasmd (CosmWasm)** : v0.54.0 -> v0.54.3
 - **CometBFT (Consensus)** : v0.38.17 -> v0.38.18
 
 **Requirements**
