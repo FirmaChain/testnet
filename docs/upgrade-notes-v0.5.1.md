@@ -3,7 +3,7 @@
 ## Overview
 
 - Governance Proposal: https://explorer-testnet.firmachain.dev/proposals/454
-- Target Block Height: `X,XXX,XXX` (Imperium)
+- Target Block Height: `5,556,000` (Imperium)
 - Upgrade Type: Chain upgrade by governance software upgrade proposal
 
 ## Changes
