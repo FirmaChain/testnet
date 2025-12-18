@@ -1,8 +1,8 @@
 {
-  "genesis_time": "2022-10-28T02:16:57.904925225Z",
+  "genesis_time": "2024-11-13T06:31:07.531975411Z",
   "chain_id": "imperium-4",
   "initial_height": "1",
-  "consensus_params": {
+  "consensusz_params": {
     "block": {
       "max_bytes": "22020096",
       "max_gas": "-1",
@@ -75,7 +75,7 @@
           "coins": [
             {
               "denom": "ufct",
-              "amount": "597000000000000"
+              "amount": "550000000000000"
             }
           ]
         },
@@ -84,7 +84,7 @@
           "coins": [
             {
               "denom": "ufct",
-              "amount": "1000000000000"
+              "amount": "10000000000000"
             }
           ]
         },
@@ -93,7 +93,7 @@
           "coins": [
             {
               "denom": "ufct",
-              "amount": "1000000000000"
+              "amount": "10000000000000"
             }
           ]
         },
@@ -102,7 +102,7 @@
           "coins": [
             {
               "denom": "ufct",
-              "amount": "1000000000000"
+              "amount": "10000000000000"
             }
           ]
         }
@@ -125,7 +125,7 @@
     "crisis": {
       "constant_fee": {
         "denom": "ufct",
-        "amount": "1000"
+        "amount": "10000000000"
       }
     },
     "distribution": {
@@ -161,7 +161,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "imperium-node-003",
+                  "moniker": "validator-node-003",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -177,15 +177,15 @@
                 "validator_address": "firmavaloper1epg9kx7nqz32dykj23p6jreqfh5x0wdy2w72qk",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "g3YeGD2GXLcNnsQy3fpBh/jauW1lHsuwMN+Wfn8PRyo="
+                  "key": "F3M1/uvDPOkmZxTWHQyLVzljuCFXh9HjKyJVfLWipMg="
                 },
                 "value": {
                   "denom": "ufct",
-                  "amount": "1000000000000"
+                  "amount": "10000000000000"
                 }
               }
             ],
-            "memo": "0d3870a924c04df9eda08e4d40c09f7da3f7eb64@10.10.10.31:26656",
+            "memo": "4949f0c8de27682b0af1d3f53cd99a25f35224ef@10.10.10.31:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -213,7 +213,7 @@
             }
           },
           "signatures": [
-            "ANeZ3G6BTCb0tlUKtqK1FW9w2eKGrFcG1HHqDic1bMMJ+f1B9dJ6xJ+/j+qL64sqmM5kAimZKEfwc4sZcIWPZw=="
+            "lYEiFww98fDN0QxHucUsJSYaVKZcFB4b3t2k6deSZ0ppmrtPQf+xm/PuZMCdql8aMXPKhM7bwihHtLg1NJdv8g=="
           ]
         },
         {
@@ -222,7 +222,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "imperium-node-002",
+                  "moniker": "validator-node-002",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -238,15 +238,15 @@
                 "validator_address": "firmavaloper134pp6s2nv7pl4mxu58aeufdd6fv5s2zuvsgqsn",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "sVbl771vSOabup/WQ4zHRyob3+llzV8vlUr/Wea3WvY="
+                  "key": "os/iGksfVzD5elY3VLuCg1u2Rcc9co6v9PIl9oJlh4g="
                 },
                 "value": {
                   "denom": "ufct",
-                  "amount": "1000000000000"
+                  "amount": "10000000000000"
                 }
               }
             ],
-            "memo": "3db7c651a291641a0094e38d6c7135072cbdade0@10.10.10.64:26656",
+            "memo": "56d132ada1140029275a03ae651ef87239b216e3@10.10.10.64:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -274,7 +274,7 @@
             }
           },
           "signatures": [
-            "G/Zrn5EKq+jmlqE8dVuFwJSmylOqJ+kid8RV69jNx24GtuaMhfYwMJjKXCsfvqncO5kwRskhY6zXk38hURQB5Q=="
+            "dRwwh83kip/gKbir+8/wB045KLLn+YjTL1VXCCvF3RIRX00RHiGpqlLUekI1cDUzwPb6ABIC4KLEn/2ksxbZEQ=="
           ]
         },
         {
@@ -283,7 +283,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "imperium-node-001",
+                  "moniker": "validator-node-001",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -299,15 +299,15 @@
                 "validator_address": "firmavaloper1nssuz67am2uwc2hjgvphg0fmj3k9l6cxy8ha9j",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "uizlFS/anW8V7uK6kEbQt5DwWsE88pUOv5ik2+fJYtY="
+                  "key": "YptpM70lVR6IHercsyl7EL1FBkZaE/VOcee41uNhEJU="
                 },
                 "value": {
                   "denom": "ufct",
-                  "amount": "1000000000000"
+                  "amount": "10000000000000"
                 }
               }
             ],
-            "memo": "f658374d7e3aa446f226522847acf7b61730aeed@10.10.10.91:26656",
+            "memo": "c1e2a1f05073654b1c231c43dad9f2f6e81c4bcd@10.10.10.91:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -335,7 +335,7 @@
             }
           },
           "signatures": [
-            "JmxKE0yK6AoObP5jY8niHmJ4szfXJZzJOzon1rWJhJUOLZ/fUXy+vKg1gdbd2QtrGywb2FBX+6h93mf59bgMHA=="
+            "AxNtWPm4sahlmh7eZed+sNlMht7k8t54MK2p9wM2Io5TWs/+jaEP+1JThmXwJIjy34+roKUJAbkcZeNs5DFlrw=="
           ]
         }
       ]
@@ -349,13 +349,13 @@
         "min_deposit": [
           {
             "denom": "ufct",
-            "amount": "10000000"
+            "amount": "5000000000"
           }
         ],
-        "max_deposit_period": "120s"
+        "max_deposit_period": "300s"
       },
       "voting_params": {
-        "voting_period": "120s"
+        "voting_period": "300s"
       },
       "tally_params": {
         "quorum": "0.334000000000000000",
